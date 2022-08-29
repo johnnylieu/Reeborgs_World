@@ -19,4 +19,4 @@ while not at_goal():
         avoid_wall()
  
 
-#Reeborg's World Monday Funday w/ Johnny Lie
+#Reeborg's World Monday Funday w/ Johnny Lieu
