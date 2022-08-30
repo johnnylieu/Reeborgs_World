@@ -13,10 +13,11 @@ def avoid_wall():
     while front_is_clear():
         move()
     turn_left()
-    while front_is_clear() and not at_goal():
-        move()
  
 while not at_goal():
-    avoid_wall()
+    if wall_in_front():
+        avoid_wall()
+    else:
+        move()
 
 #Reeborg's World Monday Funday w/ Johnny Lieu
